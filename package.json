@@ -1,0 +1,12 @@
+{
+  "name": "receipt-processor",
+  "version": "1.0.0",
+  "description": "Automated receipt processing with Claude AI and Google Sheets",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "keywords": ["receipt", "ocr", "claude", "google-sheets", "automation"],
+  "author": "",
+  "license": "MIT"
+}

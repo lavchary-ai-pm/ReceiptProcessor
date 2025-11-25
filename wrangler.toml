@@ -1,0 +1,14 @@
+name = "receipt-processor"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Environment variables (you'll set these in Cloudflare dashboard)
+# DO NOT put actual secrets here - this is just documentation
+[vars]
+# ANTHROPIC_API_KEY = "your-api-key-here"
+# SPREADSHEET_ID = "your-spreadsheet-id-here"
+# GOOGLE_SERVICE_ACCOUNT = "your-service-account-json-here"
+
+# Serve static files (your HTML page)
+[[routes]]
+pattern = "/*"
